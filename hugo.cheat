@@ -1,0 +1,7 @@
+% hugo
+
+# Preview current site (drafts included)
+hugo --buildDrafts --ignoreCache server
+
+# Build site into specified destination
+hugo --destination <destination>
