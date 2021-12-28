@@ -1,0 +1,7 @@
+% restic
+
+# List all snapshots
+restic -r <repo> snapshots
+
+# Backup <folder>
+restic -r <repo> --verbose backup <folder>

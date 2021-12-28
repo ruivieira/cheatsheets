@@ -1,0 +1,4 @@
+% exa
+
+# Tree list with n-levels
+exa --tree --level=<levels>
