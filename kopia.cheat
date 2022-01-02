@@ -1,0 +1,4 @@
+% kopia
+
+# List all snapshots for current repository
+kopia snapshot list
