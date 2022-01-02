@@ -2,3 +2,6 @@
 
 # List all snapshots for current repository
 kopia snapshot list
+
+# List snapshot policy as indented JSON
+kopia policy list --json --json-indent
