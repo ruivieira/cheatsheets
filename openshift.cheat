@@ -1,0 +1,4 @@
+% openshift
+
+# Create a project (namespace)
+oc new-project <name> --display-name '<description>'
