@@ -1,0 +1,6 @@
+% git
+
+# Truncate git history
+git checkout --orphan <new_branch> <commit_hash> ; \
+git commit -m "Truncate history" ; \
+git rebase --onto <new_branch> <commit_hash> <main_branch>
