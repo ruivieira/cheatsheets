@@ -1,0 +1,6 @@
+% docker
+
+# Docker stop a running container
+docker stop <container_id>
+
+$ container_id: docker ps --- --column 1 --header-lines 1 --delimiter '\s\s+'
