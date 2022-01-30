@@ -12,5 +12,5 @@ kubectl expose deployment <name> --type=NodePort --port=<port>
 # Delete deployment
 kubectl delete deploy <deployment_name> -n <namespace_name>
 
-$ <deployment_name>: kubectl get deploy -A --- --column 2 --header-lines 1 --delimiter '\s\s+'
-$ <namespace_name>: kubectl get deploy -A --- --column 1 --header-lines 1 --delimiter '\s\s+'
+$ deployment_name: kubectl get deploy -A --- --column 2 --header-lines 1 --delimiter '\s\s+'
+$ namespace_name: kubectl get deploy -A --- --column 1 --header-lines 1 --delimiter '\s\s+'
