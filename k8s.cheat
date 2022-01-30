@@ -1,0 +1,10 @@
+% k8s
+
+# Access cluster
+kubectl get po -A
+
+# Deploy image
+kubectl create deployment <name> --image=<image>
+
+# Expose port for image name
+kubectl expose deployment <name> --type=NodePort --port=<port>

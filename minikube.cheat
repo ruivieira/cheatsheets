@@ -1,0 +1,7 @@
+% minikube
+
+# Start minikube
+minikube start
+
+# Show dashboard
+minikube dashboard
