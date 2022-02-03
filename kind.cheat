@@ -1,0 +1,7 @@
+% kind
+
+# Create kind cluster
+kind create cluster
+
+# Delete kind cluster
+kind delete cluster

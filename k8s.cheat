@@ -14,3 +14,12 @@ kubectl delete deploy <deployment_name> -n <namespace_name>
 
 $ deployment_name: kubectl get deploy -A --- --column 2 --header-lines 1 --delimiter '\s\s+'
 $ namespace_name: kubectl get deploy -A --- --column 1 --header-lines 1 --delimiter '\s\s+'
+
+# Deploy k8s dashboard
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.4.0/aio/deploy/recommended.yaml
+
+# Get token
+kubectl describe secret -n kube-system | grep deployment -A 12c
+
+# Start proxy
+kubectl proxy

@@ -5,3 +5,6 @@ minikube start
 
 # Show dashboard
 minikube dashboard
+
+# Load image from local Docker to minikube
+minikube image load <image>
