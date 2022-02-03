@@ -19,7 +19,7 @@ $ namespace_name: kubectl get deploy -A --- --column 1 --header-lines 1 --delimi
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.4.0/aio/deploy/recommended.yaml
 
 # Get token
-kubectl describe secret -n kube-system | grep deployment -A 12c
+kubectl describe secret -n kube-system | grep deployment -A 12
 
 # Start proxy
 kubectl proxy
