@@ -2,3 +2,12 @@
 
 # Create a project (namespace)
 oc new-project <name> --display-name '<description>'
+
+# Deploy application from git with context dir
+oc new-app <git> --context-dir=<context>
+
+# Get names of all resource objects matching a label
+oc get all --selector app=<app name> -o name
+
+# Delete all resource objects matching a label
+oc delete all --selector app=<app name>
