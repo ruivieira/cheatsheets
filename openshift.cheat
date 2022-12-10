@@ -11,3 +11,6 @@ oc get all --selector app=<app name> -o name
 
 # Delete all resource objects matching a label
 oc delete all --selector app=<app name>
+
+# Build image inside minikube
+minikube image build -t dev.local/<name>:<tag> .
